@@ -1,4 +1,5 @@
-# 📌 ShareFile
+![logo_ShareFile_sin_fondo](https://github.com/user-attachments/assets/1f1b73e0-53fb-4fc6-b9c1-196beb10a0bf)
+# ShareFile
 
 este es un sensillo programa que te ayuda en enviar archivos entre distintos dispositivos conectados en una red local, ya no más tener que recurrir a usb, pendrives o almacenamieto en la nube solo para enviar una foto de tu pc al celular.
 
