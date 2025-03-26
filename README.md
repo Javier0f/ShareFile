@@ -1,4 +1,4 @@
-![logo_ShareFile_sin_fondo](https://github.com/user-attachments/assets/1f1b73e0-53fb-4fc6-b9c1-196beb10a0bf)
+![logo_ShareFile_sin_fondo_128px](https://github.com/user-attachments/assets/18b7fc7e-da02-48cf-b713-a1a8178e03fa)
 # ShareFile
 
 este es un sensillo programa que te ayuda en enviar archivos entre distintos dispositivos conectados en una red local, ya no más tener que recurrir a usb, pendrives o almacenamieto en la nube solo para enviar una foto de tu pc al celular.
@@ -47,7 +47,7 @@ Explicá cómo se usa el proyecto. Puede ser en formato de pasos:
 2. Accede a la dirección que aparece por consola despues de `npm start` en el navegador.
 3. para empezar a enviar y recibir archivos primero debes apretar el botón peer.
 
-## 🚧 Roadmap / Mejoras Futuras (Opcional)
+## 🚧 Roadmap / Mejoras Futuras
 
 - [ ] Agregar soporte para archivos grandes (+200 MB).
 - [ ] Mejorar la interfaz grafica del cliente.
