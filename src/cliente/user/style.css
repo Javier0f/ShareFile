@@ -1,0 +1,21 @@
+#users_connected {
+    /* outline: 1px solid rgb(141, 141, 141); */
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 4px 0;
+    width: 600px;
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: content-box;
+}
+
+.user {
+    background-color: rgb(165, 165, 165);
+    color: whitesmoke;
+    padding: 5px;
+    margin: 5px 0;
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}

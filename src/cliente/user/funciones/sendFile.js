@@ -45,36 +45,6 @@ function getFile() {
 
     })
 
-    reader.onload = () => {
-        console.log("Archivo: ", file.name);
-
-        const chunkSize = 128 * 1024;
-
-        let offset = 0;
-
-        let blobs = [];
-
-        return new Promise((res, rej) => {
-
-            function sendNextChunk() {
-                if (offset < file.size) {
-                    const slice = file.slice(offset, offset + chunkSize);
-
-                    // reader.readAsArrayBuffer(slice)
-                    blobs.push(slice)
-
-                    offset += chunkSize;
-                    setTimeout(sendNextChunk, 10);
-                } else {
-                    console.log("√ enviado", offset, blobs);
-                    res(blobs);
-                }
-            }
-
-            sendNextChunk();
-        })
-
-    }
 }
 
 let chunksRecividos = [];
